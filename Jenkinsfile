@@ -6,12 +6,11 @@ pipeline {
             steps {
                 echo 'Hello from Anil!'
             }
-        }
-        stage('Stage 2') {
+        stage('Stage 2') 
             steps {
                 echo 'Hello from Vijay!'
             }
-        }
+    
         stage('Stage 3') {
             steps {
                 echo 'Hello from Shubham!'
